@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Técnica - CREASOFT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/vendor/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    
+</head>
+<body>
+
+    <div class="container-fluid">
+        <section class="section-main bg-no-repeat overflow-hidden">
+            <div class="content-main h-100 mx-auto d-flex justify-content-center align-items-center">
+                <div class="row w-100">
+                    <div class="col-lg-6 col-md-7 col-12">
+                        <div class="card shadow mx-auto br-32 p-3 w-55 card-register">
+                            <div class="card-body">
+                                <h2 class="fw-800 title-form"><span class="color-primary">¡</span>NUEVAS PROMOS ESTE 2023<span class="color-primary fw-bold">!</span></h2>
+                                <div class="desc mt-3">
+                                    <p>Tenemos nuevos planes para tí.</p>
+                                    <p class="fw-bold">Fibra Óptica para tí</p>
+                                </div>
+                                <form action="#" class="mt-4" id="formPromocion">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Ingresa tu celular" name="celular" id="celular" onkeypress="return valideKey(event);">
+                                    </div>
+                                    <div class="input-group mt-3">
+                                        <input type="text" class="form-control" placeholder="DNI" name="dni" id="dni" onkeypress="return valideKey(event);">
+                                    </div>
+
+                                    <div class="mt-4">
+                                        <div class="form-group">
+                                            <div class="form-check d-flex aligns-item-center">
+                                                <div class="custom-control custom-checkbox ml-2">
+                                                    <input type="checkbox" class="custom-control-input" name="chkterminosPromocion" id="chkterminosPromocion">  
+                                                    <label class="custom-control-label fw-bold color-link-alt" for="chkterminosPromocion">Acepto <a href="#" class="link-styles">Términos y Condiciones</a></label>
+                                                </div>
+                                            </div>   
+                                        </div>
+                                    </div>
+
+                                    <div class="mx-4 d-flex justify-content-center">
+                                        <button type="submit" class="btn btn-dark form-btn">LLÁMENME</button>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-5 col-12 promo-div">
+                        <button class="btn btn-info btn-promo">Revisa nuestras nuevas promos de 2023 <i class="fa-solid fa-caret-down"></i></button>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center mt-5 px-5">
+                      
+                        <button class="btn dot-active"><i class="fa-solid fa-circle"></i></button>
+                        <button class="btn dot-nav"><i class="fa-solid fa-circle"></i></button>
+                        <button class="btn dot-nav"><i class="fa-solid fa-circle"></i></button>
+                        <button class="btn dot-nav"><i class="fa-solid fa-circle"></i></button>
+
+                    </div>
+                </div>
+            </div>
+          
+        </section>
+      
+        <div class="nav-content">
+            <button class="btn btn-info nav-prev"><i class="fa-solid fa-chevron-left"></i></button>
+            <button class="btn btn-info nav-next"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+    </div>
+    
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

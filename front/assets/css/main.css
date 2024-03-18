@@ -1,0 +1,319 @@
+body 
+{
+    margin: 0;
+    line-height: inherit;
+    height: 100%;
+}
+
+.section-main
+{
+    background-image: url(./../img/prueba-fondo4.png);
+    /* background-position: 22.19% 52.09%; */
+    /* background-position: 72.19% 72.09%; */
+    /* background-position: 72.19% .09%; */
+    background-position: 72.19% 19%;
+    height:735px;
+    /* height: 100vh; */
+    padding-top: 0px;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+
+.bg-cover 
+{
+    background-size: cover;
+}
+
+.bg-no-repeat 
+{
+    background-repeat:no-repeat;
+}
+
+.overflow-hidden
+{
+    overflow: hidden;
+}
+
+.color-primary 
+{
+    color: #d81cc4;
+}
+
+.container-fluid 
+{
+    padding: 0;
+}
+
+.color-link-alt 
+{
+    color:#007bff !important; 
+}
+
+.input-group .form-control:focus
+{
+    box-shadow: none;
+}
+
+.login-form .form-control:focus
+{
+    box-shadow: none;
+}
+
+.link-styles 
+{
+  color:#007bff !important; 
+  /* text-decoration:none !important; */
+}
+
+.form-btn
+{
+    border-radius:22px !important;
+    padding: 10px 30px !important;
+    width: auto !important;
+    font-weight: bolder !important;
+    transition: all .3s ease !important;
+    margin-top: 30px;
+    background-color: #d81cc4;
+    border-color: #d81cc4;
+}
+
+.form-btn:hover 
+{
+    /* background-color: #580650;
+    border-color: #580650; */
+    background-color: #5f99e7;
+    border-color: #5f99e7;
+}
+
+.btn-promo
+{
+    
+    border-radius:12px !important;
+    padding: 10px 30px !important;
+    width: auto !important;
+    font-weight: bolder !important;
+    transition: all .3s ease !important;
+    margin-top: 370px;
+    margin-left: 50px;
+    background-color: #fff;
+    border-color: #fff;
+    color: #d81cc4;
+}
+
+.btn-promo:hover 
+{
+    /* background-color: #67155f;
+    border-color: #67155f; */
+    background-color: #5f99e7;
+    border-color: #5f99e7;
+    color: #fff;
+}
+
+.btn-login 
+{
+    background-color: #5f99e7;
+    border-color: #5f99e7;
+}
+
+.dot-nav i
+{
+    color: #fff;
+}
+
+.dot-active i
+{
+    color: #5f99e7;
+    border-color: #fff;
+}
+
+.br-32
+{
+    border-radius: 32px !important;
+}
+
+.desc
+{
+    line-height: 12px;
+}
+
+.fw-800
+{
+    font-weight: 800 !important; 
+}
+
+.w-55
+{
+    width: 55%;
+}
+
+.bg-white 
+{
+    background-color: #fff;
+}
+
+.height-82
+{
+    height: 82px;
+}
+
+.nav-content
+{
+    /* margin-top: 10px; */
+    text-align: center;
+}
+
+.nav-prev, .nav-next 
+{
+    position: absolute;
+    top: 45% !important;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    z-index: 2;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.nav-prev
+{
+    left: 0;
+    margin-left: 15px;
+}
+
+.nav-next
+{
+    right: 0;
+    margin-right: 15px;
+}
+
+.nav-prev i, .nav-next i 
+{
+    color: #d81cc4;
+    font-weight: 700 !important;
+}
+
+.nav-prev:hover, .nav-next:hover
+{
+    background-color: #5f99e7;
+    border-color: #5f99e7;
+}
+
+.nav-prev:hover i, .nav-next:hover i
+{
+    color: #fff;
+}
+
+.logout-link
+{
+    cursor: pointer;
+    color: #007bff;
+}
+
+@media screen and (max-width:767px)
+{
+    .title-dashboard
+    {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+    .datauser
+    {
+        font-size: 11px;
+    }
+    .section-main
+    {
+        background-position: 25.19% 19%;
+    }
+    .card-register 
+    {
+        width: 90% !important;
+    }
+
+    .nav-prev, .nav-next 
+    {
+        width: 35px;
+        height: 35px;
+    }
+
+    .nav-prev
+    {
+        left: 0;
+        margin-left: 8px;
+    }
+
+    .nav-next
+    {
+        right: 0;
+        margin-right: 8px;
+    }
+
+    .promo-div 
+    {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .btn-promo
+    {
+        margin-top: 35px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .color-link-alt
+    {
+        font-size: 14px;
+    }
+
+    .title-form
+    {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px)
+{
+    .section-main
+    {
+        background-position: 35.19% 19%;
+    }
+    .card-register 
+    {
+        width: 90% !important;
+    }
+
+    .btn-promo
+    {
+        margin-left: auto;
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+        font-size: 12px;
+    }
+
+    .nav-prev
+    {
+        left: 0;
+        margin-left: 5px;
+    }
+
+    .nav-next
+    {
+        right: 0;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px)
+{
+    .section-main
+    {
+        background-position: 45.19% 19%;
+    }
+
+    .card-register 
+    {
+        width: 90% !important;
+    }
+}
+
+
+
